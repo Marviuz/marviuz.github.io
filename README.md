@@ -1,3 +1,3 @@
 # marviuz.github.io
 
-site under dev :)
+[My CV/Resume/Portfolio](https://marviuz.github.io/)
