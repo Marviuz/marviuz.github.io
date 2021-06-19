@@ -390,6 +390,27 @@ import projects from "@/content/projects";
 import contacts from "@/content/contacts";
 
 export default {
+  metaInfo: {
+    title: "Marcus - Interactive Resume",
+    meta: [
+      {
+        name: 'description',
+        content: 'I\'m Marcus Leviticus M. Dela Cruz, an aspiring developer with good knowledge of front-end techniques.'
+      },
+      {
+        name: 'keywords',
+        content: 'Marcus Leviticus M. Dela Cruz, Marviuz, Interactive Resume, Web Developer, For Hire, Web Developer, JavaScript, TypeScript, Gamer, Twitch, YouTube, Twitter, CV, Resume, Portfolio, Github'
+      },
+      {
+        name: 'robots',
+        content: 'index, follow'
+      },
+      {
+        name: 'revisit-after',
+        content: '14 days'
+      }
+    ]
+  },
   data() {
     return {
       skills: skillContents,
