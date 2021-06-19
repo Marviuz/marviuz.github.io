@@ -50,5 +50,13 @@ export default [
   {
     name: 'MySQL',
     rating: 2
+  },
+  {
+    name: 'Photoshop CS6',
+    rating: 4
+  },
+  {
+    name: 'Hitfilm Express',
+    rating: 3
   }
 ]
