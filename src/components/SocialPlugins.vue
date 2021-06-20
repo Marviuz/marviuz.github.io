@@ -2,7 +2,7 @@
   <div style="margin-top: 50px; margin-bottom: 50px">
     <div>
       <iframe
-        src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmarviuz.github.io%2F&width=450&layout=standard&action=like&size=large&share=true&height=35&appId"
+        src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmarviuz.github.io%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId"
         width="450"
         height="35"
         style="border: none; overflow: hidden"
