@@ -378,6 +378,9 @@
               </v-card-text>
             </v-card>
           </v-col>
+          <v-row justify="center">
+            <social-plugins></social-plugins>
+          </v-row>
         </v-row>
       </v-footer>
     </v-main>
@@ -388,29 +391,13 @@
 import skillContents from "@/content/skills";
 import projects from "@/content/projects";
 import contacts from "@/content/contacts";
+import metaInfo from "@/content/meta-data";
+
+import SocialPlugins from "@/components/SocialPlugins.vue";
 
 export default {
-  metaInfo: {
-    title: "Marcus - Interactive Resume",
-    meta: [
-      {
-        name: 'description',
-        content: 'I\'m Marcus Leviticus M. Dela Cruz, an aspiring developer with good knowledge of front-end techniques.'
-      },
-      {
-        name: 'keywords',
-        content: 'Marcus Leviticus M. Dela Cruz, Marviuz, Interactive Resume, Web Developer, For Hire, Web Developer, JavaScript, TypeScript, Gamer, Twitch, YouTube, Twitter, CV, Resume, Portfolio, Github'
-      },
-      {
-        name: 'robots',
-        content: 'index, follow'
-      },
-      {
-        name: 'revisit-after',
-        content: '14 days'
-      }
-    ]
-  },
+  components: { SocialPlugins },
+  metaInfo,
   data() {
     return {
       skills: skillContents,
