@@ -352,34 +352,38 @@
             <v-card flat tile>
               <v-card-text class="pa-5">
                 <h2 class="text-h2 text-center primary--text">Contacts</h2>
-                <v-data-iterator
-                  class="d-flex flex-column align-center"
-                  :items="contacts"
-                  hide-default-footer
-                  :items-per-page.sync="contacts.length"
-                >
-                  <template v-slot:default="props">
-                    <div v-for="item in props.items" :key="item.name">
-                      <v-btn
-                        text
-                        :href="item.link"
-                        :target="
-                          item.link.includes('mailto') ? '_self' : '_blank'
-                        "
+                <v-row justify="center">
+                  <v-col sm="6">
+                    <v-row justify="center">
+                      <v-col
+                        class="flex-grow-0 flex-shrink-1"
+                        v-for="contact in contacts"
+                        :key="contact.name"
                       >
-                        <v-icon left>
-                          {{ item.icon }}
-                        </v-icon>
-                        {{ item.text }}
-                      </v-btn>
-                    </div>
-                  </template>
-                </v-data-iterator>
+                        <v-btn
+                          style="text-transform: unset"
+                          text
+                          :href="contact.link"
+                          :target="
+                            contact.link.includes('mailto') ? '_self' : '_blank'
+                          "
+                        >
+                          <v-icon left>
+                            {{ contact.icon }}
+                          </v-icon>
+                          {{ contact.text }}
+                        </v-btn>
+                      </v-col>
+                    </v-row>
+                  </v-col>
+                </v-row>
               </v-card-text>
             </v-card>
           </v-col>
           <v-row justify="center">
-            <social-plugins></social-plugins>
+            <v-col class="flex-grow-0">
+              <social-plugins></social-plugins>
+            </v-col>
           </v-row>
         </v-row>
       </v-footer>
