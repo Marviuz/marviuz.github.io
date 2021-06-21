@@ -128,7 +128,7 @@
               </div>
               <v-card color="primary">
                 <v-card-title class="text-h5 white--text">
-                  Web Development
+                  Web Development — <em>Intern</em>
                 </v-card-title>
                 <v-card-text class="white pt-5">
                   <ul>
