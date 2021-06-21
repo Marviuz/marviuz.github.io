@@ -155,7 +155,7 @@
               <div slot="opposite">
                 <div class="text-h5 primary--text">Saint Louis University</div>
                 <div class="text-subtitle-1">
-                  August 2016 - June 2019, Baguio
+                  August 2015 - June 2019, Baguio
                 </div>
               </div>
               <div class="text-h5 primary--text">
