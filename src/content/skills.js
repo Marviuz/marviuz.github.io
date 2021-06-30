@@ -12,6 +12,10 @@ export default [
     rating: 4
   },
   {
+    name: 'TypeScript',
+    rating: 3
+  },
+  {
     name: 'Bootstrap',
     rating: 4
   },
@@ -24,11 +28,15 @@ export default [
     rating: 4
   },
   {
-    name: 'Firebase',
+    name: 'Vuetify',
+    rating: 4
+  },
+  {
+    name: 'ElectronJS',
     rating: 3
   },
   {
-    name: 'TypeScript',
+    name: 'SASS/SCSS',
     rating: 3
   },
   {
@@ -36,7 +44,7 @@ export default [
     rating: 4
   },
   {
-    name: 'ElectronJS',
+    name: 'ExpressJS',
     rating: 3
   },
   {
@@ -45,6 +53,10 @@ export default [
   },
   {
     name: 'Java',
+    rating: 3
+  },
+  {
+    name: 'Firebase',
     rating: 3
   },
   {
