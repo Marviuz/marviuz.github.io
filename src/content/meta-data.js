@@ -73,5 +73,8 @@ export default {
       name: 'author',
       content: 'Marcus Leviticus M. Dela Cruz'
     }
-  ]
+  ],
+  script: [
+    { 'data-ad-client': 'ca-pub-4459076583396715', async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' }
+  ],
 }
