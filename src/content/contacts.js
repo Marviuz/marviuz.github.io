@@ -1,12 +1,14 @@
+import links from './links'
+
 export default [
   {
     icon: 'mdi-twitter',
-    link: 'https://twitter.com/marviuz',
+    link: links.twitter.bitly,
     text: '@Marviuz'
   },
   {
     icon: 'mdi-linkedin',
-    link: 'https://www.linkedin.com/in/Marviuz/',
+    link: links.linkedIn.bitly,
     text: 'www.linkedin.com/in/Marviuz'
   },
   {

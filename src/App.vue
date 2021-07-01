@@ -269,13 +269,13 @@
                 <p class="text-body-1">
                   I play a few games and stream them live on twitch for fun. I
                   stream live at
-                  <a href="http://twitch.tv/marviuz" target="_blank">
+                  <a :href="links.twitch.bitly" target="_blank">
                     twitch.tv/marviuz
                   </a>
                   Saturdays and Sundays. I usually start at 7 to 8 AM GMT+8. I
                   also have a
                   <a
-                    href="https://www.youtube.com/channel/UCS3nZnjH6-eyeWFn6aKLjdg"
+                    :href="links.YTGaming.bitly"
                     target="_blank"
                     >YouTube channel</a
                   >
@@ -295,17 +295,17 @@
                   upload it to separate YouTube Channel. I have two channels
                   that I upload to. One is for
                   <a
-                    href="https://www.youtube.com/channel/UCoN-ox0wf7tCr_IWkwyb0lw"
+                    :href="links.YTAniSong.bitly"
                     target="_blank"
                   >
                     AniSong covers
                   </a>
-                  and one
+                  and one for
                   <a
-                    href="https://www.youtube.com/channel/UCAUOmt0zbdgWJ-BTAKSqXPA"
+                    :href="links.YTAnySong.bitly"
                     target="_blank"
                   >
-                    for whatever song I like to cover
+                    whatever song I like to cover
                   </a>
                 </p>
               </div>
@@ -336,8 +336,8 @@
                   The true reason why I have those personal projects. And when
                   I'm stressed, it helps me forget some problems and focus on
                   that project instead. I push most of my projects in
-                  <a href="https://github.com/marviuz/" target="_blank">
-                    my GitHub
+                  <a :href="links.gitHub.bitly" target="_blank">
+                    my GitHub repositories
                   </a>
                 </p>
               </div>
@@ -396,6 +396,7 @@ import skillContents from "@/content/skills";
 import projects from "@/content/projects";
 import contacts from "@/content/contacts";
 import metaInfo from "@/content/meta-data";
+import links from "@/content/links";
 
 import SocialPlugins from "@/components/SocialPlugins.vue";
 
@@ -406,7 +407,8 @@ export default {
     return {
       skills: skillContents,
       personalProjects: projects,
-      contacts
+      contacts,
+      links
     };
   },
   methods: {
